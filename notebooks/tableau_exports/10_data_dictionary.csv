@@ -1,0 +1,33 @@
+File,Field,Description,Type
+01_daily_stock_prices.csv,Date,Trading date (YYYY-MM-DD),Date
+01_daily_stock_prices.csv,Symbol,Stock ticker symbol,String
+01_daily_stock_prices.csv,Open,Opening price of the day,Number
+01_daily_stock_prices.csv,High,Highest price of the day,Number
+01_daily_stock_prices.csv,Low,Lowest price of the day,Number
+01_daily_stock_prices.csv,Close,Closing price of the day,Number
+01_daily_stock_prices.csv,Volume,Number of shares traded,Number
+01_daily_stock_prices.csv,Volume_Millions,Trading volume in millions,Number
+01_daily_stock_prices.csv,Quarter,Quarter of the year (Q1-Q4),String
+02_daily_returns.csv,Simple_Return,Daily simple return (decimal),Number
+02_daily_returns.csv,Simple_Return_Pct,Daily simple return (percentage),Number
+02_daily_returns.csv,Return_Category,Positive or Negative return,String
+03_cumulative_returns.csv,Cumulative_Return_Simple_Pct,Cumulative return since start (%),Number
+04_volatility_analysis.csv,EWMA_Volatility_Simple_Pct,EWMA volatility (annualized %),Number
+04_volatility_analysis.csv,Volatility_Level,High/Medium/Low volatility category,String
+05_summary_statistics.csv,Company_Name,Full company name,String
+05_summary_statistics.csv,Total_Return_Pct,Total return over analysis period (%),Number
+05_summary_statistics.csv,Annual_Return_Pct,Annualized return (%),Number
+05_summary_statistics.csv,Annual_Volatility_Pct,Annualized volatility (%),Number
+05_summary_statistics.csv,Sharpe_Ratio,Risk-adjusted return metric,Number
+05_summary_statistics.csv,Max_Daily_Loss_Pct,Maximum single-day loss (%),Number
+05_summary_statistics.csv,Sharpe_Category,Excellent/Good/Fair Sharpe ratio,String
+06_correlation_analysis.csv,Correlation,60-day rolling correlation coefficient,Number
+06_correlation_analysis.csv,Pair_Name,"Stock pair (e.g., AAPL-GOOGL)",String
+06_correlation_analysis.csv,Correlation_Category,High/Medium/Low correlation,String
+07_monthly_performance.csv,Monthly_Return_Pct,Monthly return (%),Number
+07_monthly_performance.csv,Trading_Days,Number of trading days in month,Number
+08_risk_metrics.csv,Window_Days,Risk calculation window (30/60/90/252 days),Number
+08_risk_metrics.csv,VaR_95_Pct,Value at Risk at 95% confidence (%),Number
+08_risk_metrics.csv,Max_Drawdown_Pct,Maximum drawdown in window (%),Number
+09_performance_comparison.csv,Winner_Risk_Adjusted,Better risk-adjusted performer,String
+09_performance_comparison.csv,Return_Difference_Pct,Return difference between stocks (%),Number
